@@ -1,0 +1,48 @@
+﻿
+.infopanel > div.clearfix {
+	padding: 5px 0;
+	margin-bottom: 5px;
+}
+
+.infopanel span.pull-left {
+	font-weight: bold;
+}
+
+.infopanel span.pull-right.glyphicon {
+	margin-right: 10px;
+}
+
+.infopanel span.pull-right.glyphicon.glyphicon-arrow-up {
+	color: darkred;
+}
+
+.infopanel span.pull-right.glyphicon.glyphicon-arrow-down {
+	color: darkgreen;
+}
+
+#sSelectedCount, .infopanel .error {
+	color: red;
+}
+
+#sSelectedCount.correct {
+	color: green;
+}
+
+.victory-increase, .defeated-decrease {
+	font-size: 0.8em;
+	margin: 0;
+}
+
+.victory-increase .amount, .defeated-decrease .amount {
+	font-weight: bold;
+	color: black;
+	float: right;
+}
+
+.victory-increase {
+	color: darkred;
+}
+
+.defeated-decrease {
+	color: darkgreen;
+}

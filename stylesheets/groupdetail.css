@@ -1,0 +1,62 @@
+﻿div.groupmember-bkg {
+	display: none;
+	position: fixed;
+	z-index: 1048;
+	width: 100%;
+	height: 100%;
+	padding: 0 10%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+
+div.groupmember-container {
+	cursor: auto;
+	background-color: white;
+	border: 1px solid gray;
+	height: 100%;
+	overflow-y: scroll;
+	padding: 20px;
+	box-shadow: black 0 0 10px;
+}
+
+div.groupmember-list {
+	text-align: center;
+}
+
+div.groupmember {
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 10px;
+	width: 90px;
+	height: 130px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #fafafa;
+	text-align: center;
+}
+
+	div.groupmember a {
+		display: block;
+		-ms-text-overflow: ellipsis;
+		-o-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+		text-align: center;
+	}
+
+
+#frmSelectBotByUser {
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+#panRuleCodeParameters_contest label {
+	display: block;
+}
+
+#tabHumanMatches table:not(.admintable) td:last-child,
+#tabHumanMatches table:not(.admintable) th:last-child {
+	display: none;
+}

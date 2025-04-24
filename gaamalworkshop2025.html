@@ -1,0 +1,615 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160786690-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-160786690-1');
+	</script>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title>IJCAI 2025 GAAMAL Workshop</title>
+
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/stylesheets/global.css?140809" />
+	<style>
+		h3 {
+			font-weight: bold;
+		}
+
+			h3 small {
+				margin-left: 20px;
+			}
+
+		tr.strong {
+			font-weight: bold;
+		}
+
+			tr.strong td:last-child {
+				color: saddlebrown;
+			}
+
+		body > div.container {
+			padding-top: 0;
+		}
+
+		small.gray {
+			text-align: right;
+			display: block;
+		}
+
+		.list-group-item-text:not(:first-child) {
+			border-top: 0.1em dashed #ccc;
+			padding-top: 1em;
+			margin-top: 1em;
+		}
+
+
+		.containimgs {
+			display: flex;
+			flex-flow: row wrap;
+			align-items: stretch;
+			justify-content: left;
+			align-content: stretch;
+			overflow: hidden;
+		}
+
+		.containimgs .item{
+			flex: 0.2 140px;
+			text-align: center;
+		}
+
+		img.round_icon {
+			width: 140px;
+			height: 140px;
+			border-radius: 50%;
+		}
+
+        img.big_round_icon {
+            width: 175px;
+            height: 175px;
+            border-radius: 50%;
+        }
+
+		img.match_img {
+			margin: 0 20% 0 20%;
+			width: 60%;
+		}
+
+		div.match_div {
+			margin: 1% 0% 1% 0%;
+			text-align: center;
+		}
+
+		img.announced_img {
+			margin: 0 10% 0 10%;
+			width: 80%;
+		}
+		
+		
+	</style>
+	<script type="text/javascript" src="/javascripts/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/javascripts/bootstrap.js"></script>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+		<script src="http://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div class="navbar navbar-inverse" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">IJCAI 2025 GAAMAL Workshop</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#overview">Overview</a></li>
+				<li><a href="#topics">Topics</a></li>
+				<li><a href="#schedule">Schedule</a></li>
+				<!-- <li><a href="#result">Results</a></li> -->
+				<li><a href="#subreq">Submission</a></li>
+				<li><a href="#dates">Dates</a></li>
+                <li><a href="#chair">Chairs</a></li>
+                <li><a href="#committee">Committee</a></li>
+				<li><a href="https://botzone.org.cn/static/gaamalworkshop2025_cn.html">简体中文</a></li>
+			</ul>
+			<div class="navbar-header navbar-right">
+				<a class="navbar-brand" href="/">Botzone<span class="brand-betasign">gamma</span></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<section>
+                    <a id="overview"></a>
+					<h2>Overview</h2>
+
+					<p>
+						Welcome to <b>the Second Workshop on Game AI Algorithms and Multi-Agent Learning</b>! This is a workshop co-located with <a href="https://2025.ijcai.org/">IJCAI 2025 Conference</a> in Montreal, Canada.
+						
+					</p>
+					<p>
+						Games serve as sources of inspiration and open test-fields for human intelligence. Various games, ranging from traditional card games to video games and virtual reality games, have shared a history of evolution for more than 5000 years with civilization and technology of the human society. 
+                        Games contain incarnations of diverse models in the game theory, and also provide rich simulations of real-world scenarios. 
+                        In the present age, games continue to catalyze the development of artificial intelligence, proposing novel research problems and providing benchmarks for learning algorithms. 
+                        To date, many games including Chess and Go have witnessed superhuman performance of AI algorithms, while human-level AI for harder games like Mahjong remains an open problem.
+					</p>
+					<p>
+						The Second Workshop on Game AI Algorithms and Multi-Agent Learning aims to investigate specific solutions to different forms of games as well as general learning theories, frameworks, and methods for game playing and decision making.
+					</p>
+				</section>
+
+				<section>
+					<a id="topics"></a>
+					<h2>Topics</h2>
+					<div class="row">
+						<div class="col-md-9">
+                            <p>
+                            We solicit contributions from AI researchers who are interested in games and decision-making algorithms. Our topics of interest include but are not limited to:
+                            </p>
+                            <ul>
+								<li>
+									AI algorithms for game-playing
+								</li>
+								<li>
+									Game theories and multi-agent systems
+                                </li>
+                                <li>
+                                    General formulations of game solutions
+                                </li>
+                                <li>
+                                    Game mechanics and environment design
+                                </li>
+                                <li>
+                                    Feature engineering in game AI
+                                </li>
+                                <li>
+                                    Evaluation of agents' rankings and game balance
+                                </li>
+							</ul>
+						</div>
+					</div>					
+				</section>
+
+				<section>
+                    <a id="schedule"></a>
+					<h2>Schedule</h2>
+					<div class="row">
+						<div class="col-md-9">
+							<section class="panel panel-success">
+                                <div class="panel-heading">Workshop Schedule (Afternoon, the date subject to IJCAI's schedule)</div>
+                                <table class="panel-body table table-hover table-striped">
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Agenda</th>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00</td>
+                                        <td><fonter style="color: #000000;">Opening and Welcome Speech by the workshop chair</fonter></td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:15</td>
+                                        <td><fonter style="color: #000000;"><b>Paper presentations</b></fonter></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><fonter style="color: #000000;">Paper presentation #1</fonter></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><fonter style="color: #000000;">Paper presentation #2</fonter></td>
+                                    </tr>
+									<tr>
+                                        <td></td>
+                                        <td><fonter style="color: #000000;">Paper presentation #3</fonter></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><fonter style="color: #000000;">Paper presentation #4</fonter></td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:30</td>
+                                        <td><fonter style="color: #2b2929;"><b>Coffee break & Poster session</b></fonter></td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:00</td>
+                                        <td><fonter style="color: #000000;"><b>Invited talk</b></fonter></td>
+                                    </tr>
+                                    <tr>
+                                        <td>16:30</td>
+                                        <td><fonter style="color: #000000;"><b>Symposiums of the 5th IJCAI Mahjong Competition & Award Ceremony</b></fonter></td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:30</td>
+                                        <td><fonter style="color: #000000;"><b>Closing</b></fonter></td>
+                                    </tr>
+                                </table>
+                            </section>
+						</div>
+					</div>
+				</section>
+
+				<section>
+                    <a id="subreq"></a>
+                    <h2>Submission Requirements</h2>
+                    <p>
+                        Submissions can contain recent work on all relevant topics. 
+                        All submissions will go through a light review process to ensure they fit with the scope of the workshop and to verify that they meet an acceptable quality threshold. 
+                    </p>
+					<div class="row">
+						<div class="col-md-9">
+							<ul>
+								<li><b>Format guidelines:</b>The LaTeX styles and Word template is available at <a href="https://www.mdpi.com/authors/latex">https://www.mdpi.com/authors/latex</a></li>
+								<li><b>Page limitation:</b> Up to 8 pages + unlimited references/appendices</li>
+                                <li>Please submit your paper to <a href="https://cmt3.research.microsoft.com/GAAMAL2025">https://cmt3.research.microsoft.com/GAAMAL2025</a>.</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<a id="special"></a>
+					<h2>Special Call For Papers</h2>
+                    <p>
+                        As a continuation and expansion of the IJCAI Mahjong AI Competition in previous years, 
+                        the GAAMAL workshop also welcome papers from teams of previous Mahjong AI competitions to present their algorithms and models for the competitions.
+                        <a href="https://botzone.org.cn/static/gamecontest2025a.html">Click to learn about IJCAI Mahjong AI Competitions</a>
+                    </p>
+                </section>
+                
+                <section>
+                    <a id="dates"></a>
+                    <h2>Important Dates</h2>
+                    <b>All deadlines are "anywhere on earth" (UTC-12)</b>
+                    <div class="row">
+						<div class="col-md-9">
+                            <ul>
+                                <li>
+                                    Submission Deadline: May 9, 2025
+                                </li>
+                                <li>
+                                    Paper Notification: June 4, 2025
+                                </li>
+                                <li>
+                                    Workshop time: August 16-19, 2025 (The specific date is subject to IJCAI's schedule)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+				<!-- <section>
+                    <a id="acc_papers"></a>
+                    <h2>Accepted Papers</h2>
+                    <div class="row">
+						<div class="col-md-9">
+                            <ul>
+                                <li>
+                                    Thibault Lahire, Large Batch Sharing
+                                </li>
+								<li>
+									Benjamin Estermann, Luca Lanzendoerfer, Yannick Niedermayr, Roger Wattenhofer, PUZZLES: A Benchmark for Neural Algorithmic Reasoning
+								</li>
+                                <li>
+                                    Meiling Tao, Xuechen Liang, Ziyi Wang, Yiling Tao, Tianyu Shi, Enhancing Commentary Strategies for Imperfect Information Card Games: A Study of Large Language Models in Guandan Commentary
+                                </li>
+                                <li>
+                                    Nhat-Minh Huynh, Hoang-Giang Cao, I-Chen Wu, Multi-Agent Training for Pommerman: Curriculum Learning and Population-based Self-Play Approach
+                                </li>
+								<li>
+									Yasser Mohammad, Automated Negotiation in Supply Chains Game
+								</li>
+								<li>
+									Zichao Shen, Tianchen Zhu (Beihang University), Qingyun Sun, Shiqi Gao, Jianxin Li, Beyond Human Preferences: Exploring Reinforcement Learning Trajectory Evaluation and Improvement through LLMs
+                            </ul>
+                        </div>
+                    </div>
+                </section> -->
+				
+
+				<section>
+					<a id="chair"></a>
+					<h2>Program Chair</h2>
+					<div class="containimgs">
+						<div class="item">
+							<div>
+								<a href="http://ai.pku.edu.cn/rydw/js/21804.htm">
+									<img src="images/IJCAI2025/Liwenxin.jpg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Wenxin Li</b>
+							</div>
+							<div class="title">
+								Professor in Peking University
+							</div>
+						</div>
+						
+						<div class="item">
+							<div>
+								<a href="http://cfcs.pku.edu.cn/faculty/full_time_faculty/dengxiaotie/">
+									<img src="images/IJCAI2025/Dengxiaotie.png" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Xiaotie Deng</b>
+							</div>
+							<div class="title">
+								Professor in Peking University
+							</div>
+						</div>
+
+						<div class="item">
+							<div>
+								<a href="http://www.ai.pku.edu.cn/info/1313/2015.htm">
+									<img src="images/IJCAI2025/Yangyaodong.jpg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Yaodong Yang</b>
+							</div>
+							<div class="title">
+								Assistant Professor in Peking University
+							</div>
+						</div>
+                        
+                        <div class="item">
+							<div>
+								<a href="https://jlxing.gitee.io/">
+									<img src="images/IJCAI2025/Xingjunliang.jpg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Junliang Xing</b>
+							</div>
+							<div class="title">
+								Professor in Tsinghua University
+							</div>
+						</div>
+
+                        <div class="item">
+                            <div>
+                                <a href="http://wnzhang.net/">
+                                    <img src="images/IJCAI2025/Zhangweinan.png" class="big_round_icon">
+                                </a>
+                            </div>
+                            <div class="name">
+                                <b>Weinan Zhang</b>
+                            </div>
+                            <div class="title">
+                                Tenured Associate Professor at Shanghai Jiao Tong University
+                            </div>
+                        </div>
+                        <!-- <div>
+                            <a href="https://person.zju.edu.cn/0096209">
+                                <img src="images/IJCAI2024/Zhangguochuan.jpg" class="round_icon">
+                            </a>
+                        </div>
+                        <div class="name">
+                            <b>Guochuan Zhang</b>
+                        </div>
+                        <div class="title">
+                            Professor in Zhejiang University
+                        </div> -->
+
+						<div class="item">
+							<div>
+								<a href="https://ics.nju.edu.cn/people/xianpingtao/index.html">
+									<img src="images/IJCAI2025/taoxianping.jpeg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Xianping Tao</b>
+							</div>
+							<div class="title">
+								Professor in Nanjing University
+							</div>
+						</div>
+						<!-- <div class="item">
+							<div>
+								<a href="http://wnzhang.net/">
+									<img src="images/IJCAI2020/Zhangweinan.jpg" class="round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Weinan Zhang</b>
+							</div>
+							<div class="title">
+								Assistant Professor at Shanghai Jiao Tong University
+							</div>
+						</div> -->
+						
+						<div class="item">
+							<div>
+								<a href="https://pkuzhf.github.io/">
+									<img src="images/IJCAI2025/Zhanghaifeng.jpg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Haifeng Zhang</b>
+							</div>
+							<div class="title">
+								Associate professor, Institute of Automation, Chinese Academy of Sciences (CASIA)
+							</div>
+						</div>
+						<div class="item">
+							<div>
+								<a href="#committee">
+									<img src="images/IJCAI2025/Liwenlong.jpg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Wenlong Li</b>
+							</div>
+							<div class="title">
+								General Secretary of Mahjong International League
+							</div>
+						</div>
+
+						<div class="item">
+							<div>
+								<a href="http://www.cantab.net/users/yutian.chen/">
+									<img src="images/IJCAI2025/Chenyutian.jpg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Yutian Chen</b>
+							</div>
+							<div class="title">
+								Staff Research Scientist in Google DeepMind
+							</div>
+						</div>
+						<div class="item">
+							<div>
+								<a href="#committee">
+									<img src="images/IJCAI2025/Zhenglanzhou.jpg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>LanZhou Zheng</b>
+							</div>
+							<div class="title">
+								CTO & Co-Founder of WEIZHIYU (Beijing) Technology co., LTd.
+							</div>
+						</div>
+						<div class="item">
+							<div>
+								<a href="http://haobofu.github.io">
+									<img src="images/IJCAI2025/Fuhongbo.jpg" class="big_round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Haobo Fu</b>
+							</div>
+							<div class="title">
+								Principal Researcher in Tencent AI Lab
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+                <section>
+					<a id="committee"></a>
+					<h2>Organization Committee</h2>
+					<div class="containimgs">
+						<div class="item">
+							<div>
+								<a href="http://ai.pku.edu.cn/rydw/js/21804.htm">
+									<img src="images/IJCAI2025/Liwenxin.jpg" class="round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Wenxin Li</b>
+							</div>
+							<div class="title">
+								Professor in Peking University
+							</div>
+						</div>
+
+                        <div class="item">
+							<div>
+								<a href="https://pkuzhf.github.io/">
+									<img src="images/IJCAI2025/Zhanghaifeng.jpg" class="round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Haifeng Zhang</b>
+							</div>
+							<div class="title">
+								Associate professor, Institute of Automation, Chinese Academy of Sciences (CASIA)
+							</div>
+						</div>
+
+                        <div class="item">
+                            <div>
+                                <a href="http://wnzhang.net/">
+                                    <img src="images/IJCAI2025/Zhangweinan.png" class="round_icon">
+                                </a>
+                            </div>
+                            <div class="name">
+                                <b>Weinan Zhang</b>
+                            </div>
+                            <div class="title">
+                                Tenured Associate Professor at Shanghai Jiao Tong University
+                            </div>
+                        </div>
+
+                        <div class="item">
+							<div>
+								<a href="https://jlxing.gitee.io/">
+									<img src="images/IJCAI2025/Xingjunliang.jpg" class="round_icon">
+								</a>
+							</div>
+							<div class="name">
+								<b>Junliang Xing</b>
+							</div>
+							<div class="title">
+								Professor in Tsinghua University
+							</div>
+						</div>
+                    </div>
+                </section>
+				
+				<section>
+					<h2>Contact</h2>
+					<a id="contact"></a>
+                    <p>
+                        Please send your inquiries to <a href="mailto:gaamal.workshop@gmail.com">gaamal.workshop@gmail.com</a>, 
+                        or Xingbo Wang <a href="mailto:jacksimbol@stu.pku.edu.cn">jacksimbol@stu.pku.edu.cn</a>
+                    </p>
+				</section>
+			</div>
+			
+			<div class="col-md-4">
+				<section class="panel panel-info">
+					<div class="panel-heading">Announcement</div>
+					<ul class="panel-body list-group">
+						<li class="list-group-item">                    
+							<p class="list-group-item-text clearfix">
+								<span><b>Attention!</b> According to IJCAI Regulations:</span>
+                                <p>
+                                At least one author of each accepted paper <b>must</b> travel to the IJCAI venue <b>in person</b>.
+                                </p>
+                                <p>
+                                Multiple submissions of the same paper to more IJCAI workshops are <b>forbidden</b>.
+                                </p>
+								<small class="gray">2025-03-17</small>
+							</p>
+						</li>
+                        <!-- <li class="list-group-item">                    
+							<p class="list-group-item-text clearfix">
+                                <p>
+                                Submitted papers will have the opportunity to be accepted into <i>Algorithms for Games AI</i>, a special issue of the open access journal <i>Algorithms</i> by MDPI.
+                                <a href="https://www.mdpi.com/journal/algorithms/special_issues/Games_AI">Click to learn about this issue.</a>
+                                </p>
+								<small class="gray">2024-03-23</small>
+							</p>
+						</li> -->
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" style="margin-top: 20px">
+		<div class="container">
+			<p>
+				<span class="text-muted">Organizer: AI Lab, Institute of Network and Energy-Efficient Computing, School of Computer Science, Peking University.</span><br />
+				<span class="text-muted">All rights reserved by organizers.</span><br />
+				<span class="text-muted">The <a href="https://cmt3.research.microsoft.com">Microsoft CMT service</a> was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</span>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

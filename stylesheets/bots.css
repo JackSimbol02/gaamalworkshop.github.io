@@ -1,0 +1,95 @@
+﻿tr.loadfail {
+	color: red;
+}
+
+pre.prettyprint {
+	overflow: auto;
+	-ms-word-wrap: normal;
+	word-wrap: normal;
+	white-space: pre;
+}
+
+.group-info {
+	clear: both;
+}
+
+.group-info > span.pull-left {
+	font-weight: bold;
+}
+
+.bot-detail li {
+	display: block;
+}
+
+.botlistitem-btn {
+	margin-top: -30px;
+	position: relative;
+	z-index: 5;
+}
+
+#games .botlistitem {
+	padding-bottom: 40px;
+}
+
+#dBotRankMatches {
+	padding-top: 10px;
+}
+
+#dBotRankMatches .victory-increase, #dBotRankMatches .defeated-decrease {
+	white-space: nowrap;
+}
+
+#dBotRankMatches .victory-increase .amount, #dBotRankMatches .defeated-decrease .amount {
+	float: none;
+	margin-left: 10px;
+}
+
+#dBotRankTrend {
+	padding-top: 10px;
+	text-align: center;
+}
+
+	#dBotRankTrend canvas {
+		width: 100%;
+		box-shadow: 0 0 5px gray;
+		max-width: 100%;
+		min-width: 30vw;
+		max-height: 100%;
+		min-height: 30vh;
+		padding: 10px;
+	}
+
+ul.hover-menu {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	padding: 0;
+}
+
+ul.hover-menu:hover {
+	display: block;
+}
+
+a.active:hover + ul.hover-menu {
+	display: block;
+}
+
+a[name=btnRankBot] {
+	margin-right: -1px;
+}
+
+#dBotGlobalData {
+	padding-top: 10px;
+}
+
+pre#txtGlobalData {
+	white-space: pre-wrap;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+#dBotInfo td > small {
+	display: block;
+}
+

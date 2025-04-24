@@ -1,0 +1,36 @@
+.game-recommendation {
+    margin-bottom: 20px;
+    background-color:#d9edf7;
+    border-radius: 3px;
+    border: 1px solid #bce8f1;
+    display:none;
+}
+
+.game-recommendation .game-name {
+    display: block;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    color:#31708f;
+}
+
+.game-recommendation .carousel-indicators {
+    bottom: -10px;
+}
+
+.game-recommendation .carousel-control {
+    border-radius: 3px;
+}
+
+.game-recommendation .carousel-control.left {
+    background-image: linear-gradient(to right,rgba(55, 142, 183, 0.5) 0,rgba(142, 198, 208, 0.0001) 100%);
+}
+
+.game-recommendation .carousel-control.right {
+    background-image: linear-gradient(to left,rgba(55, 142, 183, 0.5) 0,rgba(142, 198, 208, 0.0001) 100%);
+}
+
+.game-recommendation .carousel-control .glyphicon {
+    margin-top: 0 !important;
+    transform: translateY(-50%) !important;
+}

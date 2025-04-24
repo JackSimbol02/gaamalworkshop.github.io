@@ -1,0 +1,120 @@
+#mnuFavorite {
+	padding: 0;
+}
+
+.trail-focus {
+	position: absolute;
+	z-index: 9999;
+	height: 1em;
+	width: 1em;
+	color: red;
+	display: block;
+	border-radius: 50%;
+	text-shadow: 0 0 10px black;
+	top: -0.5em;
+	left: -0.5em;
+}
+
+.favorite-menu {
+	min-width: 300px;
+	padding: 0;
+	max-height: 80vh;
+	overflow-y: scroll;
+	overflow-x: visible;
+}
+
+.favorite-menu .favorite-item {
+	width: 100%;
+	background-color: #eee;
+}
+
+.favorite-menu .favorite-item:nth-child(2n+1) {
+	background-color: white;
+}
+
+.favorite-menu .favorite-item td:first-child {
+	text-align: left;
+	padding-left: 0.5em;
+}
+
+.favorite-menu.favorite-bots .favorite-item td:last-child {
+	text-align: right;
+	padding: 0.5em 0;
+}
+
+.favorite-menu .btn-group {
+	white-space: nowrap;
+}
+
+.favorite-menu .favorite-item table {
+	width: 100%;
+}
+
+/* .favorite-menu .favorite-item .game {
+		display: block;
+		z-index: 1;
+		position: absolute;
+		top: 50%;
+		right: 100%;
+		background-image: linear-gradient(to right, transparent, white);
+		transform: translateY(-50%);
+	} */
+
+.favorite-menu .favorite-item .version {
+	cursor: default;
+}
+
+.favorite-menu .favorite-item .name:after {
+	content: " ";
+}
+
+.favorite-menu .favorite-item .players {
+	text-align: center;
+}
+
+.favorite-menu.favorite-matches .favorite-item {
+	padding: 0.5em 0;
+}
+
+.favorite-menu .favorite-item .compact-player {
+	display: inline-block;
+	border: solid 1px #999999;
+	background-color: white;
+	border-radius: 5px;
+	margin: 2px;
+}
+
+.favorite-menu.favorite-matches .matchinfo {
+	display: flex;
+	align-items: center;
+}
+
+.favorite-menu.favorite-matches .matchinfo > div:not(:last-child) {
+	padding: 0 0.5em;
+	flex-grow: 1;
+}
+
+.favorite-menu.favorite-matches .matchinfo .btn-group {
+	flex-shrink: 0;
+}
+
+.favorite-menu.favorite-matches .compact-player .playername {
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 0.8em;
+	padding-right: 5px;
+}
+
+.favorite-menu.favorite-matches .compact-player .playername>a {
+	display: block;
+}
+
+.favorite-menu.favorite-matches .compact-player .score {
+	color: white;
+	background-color: #999999;
+	padding: 0 5px;
+	margin: -1px -1px 0 0;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	vertical-align: top;
+}

@@ -1,0 +1,51 @@
+﻿.group-listgroup {
+	margin: 0;
+}
+
+.group-listitem:nth-child(2n+1) {
+	border-right-width: 1px !important;
+}
+
+.group-listitem:nth-child(2) {
+	border-top-width: 0 !important;
+}
+
+.group-listitem:nth-last-child(2) {
+	border-bottom-left-radius: 3px !important;
+}
+
+.group-listitem:last-child {
+	border-bottom-left-radius: 0 !important;
+}
+
+.group-listitem h4 {
+	font-weight: bold;
+}
+
+.group-listitem .role {
+	font-size: 0.7em;
+	float: right;
+}
+
+.group-listitem .list-group-item-text {
+	display: flex;
+	width: 100%;
+	flex-wrap: nowrap;
+	align-items: flex-end;
+}
+
+.group-listitem .list-group-item-text > span:first-child {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	overflow: hidden;
+	flex-grow: 1;
+}
+
+.group-listitem .list-group-item-text > span:last-child {
+	white-space: nowrap;
+	text-align: right;
+	flex-grow: 1;
+	flex-shrink: 0;
+	padding-left: 0.5em;
+}

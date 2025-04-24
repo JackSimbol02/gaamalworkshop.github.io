@@ -1,0 +1,117 @@
+﻿.list-group .post-listheading > h4 {
+	font-weight: bold;
+}
+
+#dlgCreatePost h4 {
+	display: inline-block;
+}
+
+.filter {
+	margin-bottom: 20px;
+}
+
+.list-group .badge {
+	margin-left: 5px;
+}
+
+.textpreview {
+	max-width: none;
+	width: 100%;
+}
+
+.subpost-content div.well {
+	margin: 5px;
+}
+
+.post-content {
+	white-space: pre-wrap;
+}
+
+.post-info {
+	text-align: right;
+}
+
+.subpost-info {
+	margin: 20px 5px 5px 5px;
+	text-align: right;
+}
+
+.subpost-content {
+	white-space: pre-wrap;
+}
+
+.aQuote {
+	margin: 5px 5px 0 0;
+}
+
+.tags {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+#panSubPosts .tags {
+	margin-left: 10px;
+}
+
+.post-tag {
+	border-radius: 3px;
+	margin: 0 3px 3px 0;
+	padding: 0 !important;
+	background: #efefef;
+	border: 1px solid transparent;
+	display: inline-block;
+}
+
+.post-tag span {
+	padding: 1px 4px;
+	display: inline-block;
+}
+
+.post-tag .type {
+	color: black;
+}
+
+.post-tag .name {
+	font-weight: bold;
+}
+
+.post-tag.tag-game {
+	border: 1px solid darkgreen !important;
+}
+
+.post-tag.tag-game .type {
+	background-color: lightgreen;
+}
+
+.post-tag.tag-group {
+	border: 1px solid darkorange !important;
+}
+
+.post-tag.tag-group .type {
+	background-color: #ffcb6d;
+}
+
+.post-tag.tag-misc {
+	border: 1px solid darkblue !important;
+}
+
+.post-tag.tag-misc .type {
+	background-color: lightblue;
+}
+
+.col-md-4 .tags {
+	display: none;
+}
+
+.selectize-dropdown.plugin-optgroup_columns .optgroup {
+	margin-right: -1px;
+}
+
+.selected-name:not(:empty) {
+	font-weight: bold;
+}
+
+.selected-name:not(:empty):before {
+	content: ": ";
+}
